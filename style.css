@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buyuk{
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+}
+.orta{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    box-shadow: 300px 0px 0px 0px blueviolet, 300px 300px 0px 0px blueviolet, 0px 300px 0px 0px blueviolet;
+    padding: 75px 0 0 75px;
+}
+.kucuk{
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    box-shadow: 225px 0px 0px 0px yellow, 225px 225px 0px 0px yellow, 0px 225px 0px 0px yellow;
+}
